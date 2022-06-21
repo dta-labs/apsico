@@ -1,0 +1,76 @@
+{
+    "name": "Apsico",
+    "short_name": "Apsico",
+    "description": "Apsico - Psicólogos a un click de distancia. Espacio para consultas e intercambios en el mundo de la psicología en general.",
+    "gcm_sender_id": "103953800507",
+    "background_color": "#0000EF",
+    "theme_color": "#0000EF",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+	"categories": ["psicología", "terapia", "médica"],
+    "icons": [
+        {
+            "src": "./image/icons/maskable_icon_x48.png",
+            "sizes": "48x48",
+            "type": "image/png",
+            "purpose": "maskable" 
+        },
+        {
+            "src": "./image/icons/maskable_icon_x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "maskable" 
+        },
+        {
+            "src": "./image/icons/maskable_icon_x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "maskable" 
+        },
+        {
+            "src": "./image/icons/maskable_icon_x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable" 
+        },
+        {
+            "src": "./image/icons/maskable_icon_x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "./image/icons/maskable_icon_x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable" 
+        },
+        {
+            "src": "./image/icons/maskable_icon_x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "maskable" 
+        },
+        {
+            "src": "./image/icons/maskable_icon_x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable" 
+        }
+    // ],
+	// "screenshots" : [
+	// 	{
+	// 		"src": "screenshot1.webp",
+	// 		"sizes": "1280x720",
+	// 		"type": "image/webp"
+	// 	},
+	// 	{
+	// 		"src": "screenshot2.webp",
+	// 		"sizes": "1280x720",
+	// 		"type": "image/webp"
+	// 	}
+	]
+}

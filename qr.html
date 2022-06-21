@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Utf-8">
+    <title>QR Code Generator</title>
+    <script type="text/javascript" src="modules/QR/qrcode.js"></script>
+</head>
+
+<body>
+
+    <div id="placeHolder"></div>
+
+</body>
+
+</html>
+
+<script>
+    let typeNumber = 4;
+    let errorCorrectionLevel = 'L';
+    let qr = qrcode(typeNumber, errorCorrectionLevel);
+    qr.addData('Hola Cosme cómo estás');
+    qr.make();
+    document.getElementById('placeHolder').innerHTML = qr.createImgTag();
+</script>

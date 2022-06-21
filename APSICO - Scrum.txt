@@ -1,0 +1,118 @@
+[x] Icono de la aplicación (*)
+
+[x] Gestión de especialistas:
+    [x] Definir dias y horarios que no va a trabajar
+    [x] Altas automáticas (*)
+    [x] Bajas manuales
+
+[x] Gestión de ofertas (*)
+    [x] Spinner
+    [x] Rentas / Eventos
+        [x] Adicionar
+		    [x] Quitar el botón de eliminar
+			[x] Datepicker en fechas de Inicio y Fin
+        [x] Editar
+        [x] Eliminar
+  
+[x] Perfil de usuario:
+    [x] Contacto de emergencia
+
+[x] Requerimientos nuevos:
+    [x] Quitar sexo no definido
+    [x] tomar foto a credencial de elector
+    [x] es un poco difícil poner la edad ponerlo en otro formato 
+    [x] separar calle y número y aumentar número interior y Colonia
+        [x] Dirección aumentar: 
+		    [x] calle <- direccion
+		    [x] número exterior <- numExt
+		    [x] número interior <- numInt
+		    [x] colonia <- colonia
+		    [x] localidad <- localizacion
+		    [x] municipio <- municipio
+		    [x] estado <- estado
+    [x] numero de teléfono (opcional)
+    [x] número teléfono emergencia
+    [x] Datos profesionales
+        [x] obligatorio cédula profesional
+    [x] Edición Renta
+        [x] Dirección aumentar: 
+		    [x] calle <- direccion
+		    [x] número exterior <- numExt
+		    [x] número interior <- numInt
+		    [x] colonia <- colonia
+		    [x] localidad <- localizacion
+		    [x] municipio <- municipio
+		    [x] estado <- estado
+
+[x] Navegación botón atrás
+	[x] Barra de menú
+	[x] Servicios
+  
+[ ] Bugs:
+    [x] En los perfiles de los especialistas y cuando le pongo perfil me sale mi perfil no el de ellos
+	[x] Sustituir las imágenes por un listado con checkmarks
+	[x] A también cuando abrí la página en la computadora ví dos faltas de ortografía: recibe y servicios creo le falta la r
+    [x] [6/4 23:39] Omar: Hola Cosme lo de la fecha de nacimiento en registro estaría bien con el mismo formato que está en administrar eventos
+	[x] Ahí donde está lo de la credencial de elector para poder tomarle foto -> enviar a profesional
+	[x] Refrescar al cambiar los datos del usuario
+		[x] No Ext
+		[x] No Int
+		[x] Colonia
+	[x] Datos de Consulta
+		[x] No se guardan el horario inicio y fin
+    [x] [6/4 23:48] Omar: Cuando reservas un evento no le avisa a la persona que está haciendo el evento
+	[x] Administrar consultas Consulta
+		[x] No se muestra el calendario
+	[x] Edición de los datos personales: 
+		[x] calle <- direccion
+		[x] número exterior <- numExt
+		[x] número interior <- numInt
+		[x] colonia <- colonia
+		[x] localidad <- localizacion
+		[x] municipio <- municipio
+		[x] estado <- estado
+	[ ] Consulta de emergencia (*)
+		[x] Usuario en línea
+		[x] Video chat
+		[ ] Incluir el pago de la consulta
+			[ ] Al inicio
+	[x] Centro de notificaciones (*)
+		[x] Nueva cita
+		[x] Nueva renta
+		[x] Nueva reservación de evento
+    [ ] [6/4 23:53] Omar: En la renta no puedo rentar por un solo día?
+	[ ] Renta:
+		[ ] La renta puse tres fotos y nomás me mostró una
+		[ ] Cuando rentas antes de pagar estaría bien que te dijera cuánto es el monto eso sin compromiso para el cliente
+		[ ] Aumentar aparte del municipio, el estado
+		[ ] Hice la transacción para el pago de renta por un día y me quiere cobrar todo el mes
+		[ ] Lo que pienso de eso es que el precio se estipule por día y ya si la persona lo quiere rentar por semana o por mes se haga un descuento
+	[x] Quiero entrar en administrar eventos y me manda a administrar rentas
+	[x] Citas:
+		[x] Las citas se muestran doble en Mis Citas
+	[x] Problemas con el buscador
+	
+[ ] Mensajes 
+	[x] SMS
+	[ ] Push
+		[x] Crear token
+		[ ] Registrar múltiples tokens
+		[ ] Crear el servicio de notificación
+
+[ ] Cambiar la cuenta de pago para Omar
+	
+[No] Transacciones reales
+    [No] Conekta (*)
+    [No] Mercado pago
+
+						335    323           309
+cliente: 350.00 -> cta: 332 -> 314.5 -> esp: 297.92 U (85%) / tú: 17.5 (5%) / paypal: (10%)
+
+cliente: 350.00 -> cta: 332 -> 314.5 -> esp: 297.92 U (85%) / tú: 17.5 (5%) / paypal: (10%)
+
+cliente: 350.00 -> cta: 332 -> 303.7664 (86.00%)
+                            ->  11.4610 ( 3.65%) 
+
+cliente: 350.00 -> transf(95%): 332.5 -> 315.2 (95.00%)
+                -> transf( 5%):  17.5 ->  12.8 ( 3.65%)
+				

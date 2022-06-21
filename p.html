@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Dashboard</h2>
+
+<iframe src="https://datastudio.google.com/open/11rWZWOstow191nxiySkhNs4aB4K9fr4l?usp=sharing" height="200" width="100%"></iframe>
+
+<object data="https://datastudio.google.com/open/11rWZWOstow191nxiySkhNs4aB4K9fr4l?usp=sharing" width="600" height="400">
+    <embed src="https://datastudio.google.com/open/11rWZWOstow191nxiySkhNs4aB4K9fr4l?usp=sharing" width="600" height="400"> </embed>
+    Error: Embedded data could not be displayed.
+</object>
+
+
+<object data="https://datastudio.google.com/open/11rWZWOstow191nxiySkhNs4aB4K9fr4l?usp=sharing" width="400" height="300" type="text/html">
+    Alternative Content
+</object>
+
+
+<embed src="https://datastudio.google.com/open/11rWZWOstow191nxiySkhNs4aB4K9fr4l?usp=sharing" width=200 height=200 onerror="alert('URL invalid !!');" />
+
+<div id="displayDiv"></div>
+
+
+<script>
+	xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function() {
+	  if(xhr.readyState == 4 && xhr.status == 200) {
+		document.getElementById('displayDiv').innerHTML = xhr.responseText;
+	  }
+	};
+	xhr.open('GET', 'https://datastudio.google.com/open/11rWZWOstow191nxiySkhNs4aB4K9fr4l?usp=sharing', true);
+	xhr.send();
+</script>
+
+</body>
+</html>

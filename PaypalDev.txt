@@ -1,0 +1,16 @@
+Application: ApsicoDev
+Sandbox account: csantiestebantoca-facilitator@gmail.com
+Client ID: Adetu1YFqerHY7wN2aDnVOMHb0mpdyOhqrsQzn8GGljT7EpB37fML9l_7vuWDBqS1U4kktPUOz8cSLFP
+Secret: EDrt6lJmNA5AaBFubL06J8ebiV_DNOcm0RMVy3ZOTV4FUy93Ticfe5zv34gEPQWvyep19MZoo_h0rXcq
+
+sb-b6qa4385201@personal.example.com
+2O{a<R^-
+
+Omar:
+
+Application: Apsico
+Sandbox ID: AQGzUzhM3UuIAqh31NFbNnlslLM9oC47jJvSsVpBYmsOOaSktoe1RY6LzsnmSK3oDcFTX4MKVxFFyina
+Live ID: AVZifCy9UAX_DcY-fMpN08EOV6r637iS7xKU2QhEja9BXr6DPkyhbVxRKouVspFXAByv7JwKlt2ms7a_
+
+sb-spety1645237@personal.example.com
+2[Y?PiZ3
